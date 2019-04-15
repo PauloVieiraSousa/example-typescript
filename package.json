@@ -1,0 +1,24 @@
+{
+  "name": "exemplo",
+  "version": "0.0.1",
+  "description": "Exempo de uso de typescript com javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:production": "webpack --mode=production",
+    "build:develpment": "webpack --mode=development",
+    "start:dev": "webpack-dev-server"
+  },
+  "author": "Paulo Sousa",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.4.3",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.3.1"
+  },
+  "dependencies": {
+    "web3": "^1.0.0-beta.52"
+  }
+}
